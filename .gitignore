@@ -1,0 +1,9 @@
+# Ignore everything
+/*
+
+# Ignore gitignore
+!.gitignore
+
+# Ignore catalogues
+!hypr/
+!waybar/
