@@ -7,3 +7,6 @@
 # Ignore catalogues
 !hypr/
 !waybar/
+
+
+hypr/config/monitors.conf
