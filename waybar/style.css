@@ -55,8 +55,13 @@ button:hover {
 
 #workspaces button {
     padding: 0 5px;
+    font-weight: 700;
     background-color: transparent;
     color: #ffffff;
+}
+
+#workspaces button:not(.hosting-monitor) {
+    color: #444;
 }
 
 #workspaces button:hover {
@@ -69,12 +74,18 @@ button:hover {
 }
 
 #workspaces button.active {
-    background-color: white;
-    color: black;
+    /*background-color: white;
+    color: black;*/
 }
 
 #workspaces button.urgent {
     background-color: #eb4d4b;
+}
+
+#workspaces button.active.hosting-monitor {
+    /*color: blue;*/
+    background-color: white;
+    color: black;
 }
 
 #mode {
